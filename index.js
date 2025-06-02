@@ -1,4 +1,4 @@
-let tipButtons = document.querySelectorAll(".tip-btn");
+let tipButtons = document.querySelectorAll(".btn");
 let tipInputField = document.getElementById("tipInput");
 
 tipButtons.forEach((btn) => {
@@ -25,7 +25,7 @@ generateBillBtn.addEventListener("click", () => {
     let perPersonSpan = document.getElementById("perPerson");
 
     if (isNaN(billAmount) || isNaN(tipPercent) || isNaN(peopleCount) || peopleCount <= 0) {
-        alert("Please enter valid inputs.");
+        alert("Please enter your vaild input.");
         return;
     }
 

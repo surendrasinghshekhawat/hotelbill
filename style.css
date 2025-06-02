@@ -1,55 +1,45 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f3f3f3;
-    padding: 20px;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+.parent {
 
-.calculator {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 400px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.tip-buttons {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.child {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(233, 221, 221);
+    padding: 30px;
+
+}
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+label {
+    font-size: 20px;
     gap: 10px;
 }
-
-.tip-btn {
-    flex: 1;
-    padding: 8px;
-    border: none;
-    background: lightgray;
-    cursor: pointer;
-    border-radius: 5px;
+.btn{
+    padding: 5px 8px;
 }
-
-.tip-btn:hover {
-    background: gray;
-    color: white;
-}
-
-button#generateBill {
+#generateBill{
     width: 100%;
-    padding: 10px;
-    background: #008cba;
+    padding: 5px 10px;
     color: white;
-    border: none;
+    background-color: blue;
+    font-size: 20px;
     border-radius: 5px;
-}
 
-.results {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 5px;
+
+}
+.results{
+    font-size: 20px;
 }
