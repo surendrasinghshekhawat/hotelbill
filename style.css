@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.calculator {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tip-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.tip-btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tip-btn:hover {
+    background: gray;
+    color: white;
+}
+
+button#generateBill {
+    width: 100%;
+    padding: 10px;
+    background: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
